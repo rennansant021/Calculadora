@@ -1,0 +1,176 @@
+object frm_calculadora: Tfrm_calculadora
+  Left = 0
+  Top = 0
+  Caption = 'Calculadora'
+  ClientHeight = 461
+  ClientWidth = 241
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Z: TLayout
+    Position.X = 8.000000000000000000
+    Position.Y = 100.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 353.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object btn_0: TButton
+      Position.X = 58.000000000000000000
+      Position.Y = 312.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '0'
+      TextSettings.Trimming = None
+    end
+    object btn_1: TButton
+      Position.Y = 264.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '1'
+      TextSettings.Trimming = None
+    end
+    object btn_2: TButton
+      Position.X = 58.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      Text = '2'
+      TextSettings.Trimming = None
+    end
+    object btn_3: TButton
+      Position.X = 116.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = '3'
+      TextSettings.Trimming = None
+    end
+    object btn_4: TButton
+      Position.Y = 216.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = '4'
+      TextSettings.Trimming = None
+    end
+    object btn_5: TButton
+      Position.X = 58.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = '5'
+      TextSettings.Trimming = None
+    end
+    object btn_6: TButton
+      Position.X = 116.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = '6'
+      TextSettings.Trimming = None
+    end
+    object btn_7: TButton
+      Position.Y = 168.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = '7'
+      TextSettings.Trimming = None
+    end
+    object btn_8: TButton
+      Position.X = 58.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = '8'
+      TextSettings.Trimming = None
+    end
+    object btn_9: TButton
+      Position.X = 116.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = '9'
+      TextSettings.Trimming = None
+    end
+    object btn_div: TButton
+      Position.X = 174.000000000000000000
+      Position.Y = 312.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 15
+      Text = '/'
+      TextSettings.Trimming = None
+    end
+    object btn_igual: TButton
+      Position.X = 116.000000000000000000
+      Position.Y = 312.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      Text = '='
+      TextSettings.Trimming = None
+    end
+    object btn_mult: TButton
+      Position.X = 174.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = '*'
+      TextSettings.Trimming = None
+    end
+    object btn_ponto: TButton
+      Position.Y = 312.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = '.'
+      TextSettings.Trimming = None
+    end
+    object btn_soma: TButton
+      Position.X = 174.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = '+'
+      TextSettings.Trimming = None
+    end
+    object btn_sub: TButton
+      Position.X = 174.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = '-'
+      TextSettings.Trimming = None
+    end
+  end
+end
