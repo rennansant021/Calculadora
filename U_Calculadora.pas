@@ -54,10 +54,10 @@ begin
 end;
 
 procedure Tfrm_calculadora.btn_igualClick(Sender: TObject);
-var n1, n2 : double;
+var numero1, numero2 : double;
 begin
-  n1 := StrToFloat(txt_nmr1.Text);
-  n2 := StrToFloat(txt_nmr2.Text);
+  numero1 := StrToFloat(txt_nmr1.Text);
+  numero2 := StrToFloat(txt_nmr2.Text);
 end;
 
 procedure Tfrm_calculadora.btn_multClick(Sender: TObject);
